@@ -10,13 +10,15 @@ import { MyApp } from './app.component';
 
 import { AngularFireModule } from 'angularfire2';
 import { LoginPage } from '../pages/login/login';
+import { RegisterPage } from '../pages/register/register';
 
 
 
 @NgModule({
   declarations: [
     MyApp,
-    LoginPage
+    LoginPage,
+    
     
   ],
   imports: [
@@ -28,7 +30,7 @@ import { LoginPage } from '../pages/login/login';
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    LoginPage
+    LoginPage,
     
   ],
   providers: [
